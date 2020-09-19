@@ -7,6 +7,87 @@
   <title>Document</title>
 </head>
 <body>
+  <header>
+    <h1>Survey Form</h1>
+    <p>Thank you for taking the time to complete this form.</p>
+  </header>
+
+  <div class="container">
+    <form class="">
+      <div class="">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+      </div>
+
+      <div class="">
+        <label for="email">Email</label>
+        <input type="email" name="email">
+      </div>
+
+      <div class="">
+        <label for="age">Age <span>(optional)</span></label>
+        <input type="number" name="age">
+      </div>
+
+      <div class="">
+        <label for="role">Which option best describes your current role?</label>
+        <select class="" name="role" placeholder="aaa">
+          <option value="" disabled >Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full time job</option>
+          <option value="learner">Full time learner</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="">
+        <p>Would you recommend our company to a friend?</p>
+        <input type="radio" id="yes" name="recomend" value="yes">
+        <label for="recomend">Yes</label>
+
+        <input type="radio" id="no" name="recomend" value="no">
+        <label for="recomend">No</label>
+
+        <input type="radio" id="maybe" name="recomend" value="maybe">
+        <label for="recomend">Maybe</label>
+      </div>
+
+      <div class="">
+        <label for="part">What is your favorite part of our company?</label>
+        <select class="" name="part" >
+          <option value="" disabled >Select the best thing</option>
+          <option value="projects">Projects</option>
+          <option value="people">People</option>
+          <option value="learner">Free restaurant</option>
+        </select>
+      </div>
+
+      <div class="">
+        <p>What would you like to see improved? </p>
+        <input type="checkbox" name="">
+        <label for="">Videos</label>
+        <input type="checkbox" name="">
+        <label for="">Challenges</label>
+        <input type="checkbox" name="">
+        <label for="">Communication</label>
+        <input type="checkbox" name="">
+        <label for="">Advertisement</label>
+      </div>
+
+      <div class="">
+        <label for="range">How would you rate our website? <span>(from 1 to 10)</span></label>
+        <input type="range" min="1" max="10" name="range">
+      </div>
+
+      <div class="">
+        <label for="">Any comments or suggestions?</label>
+        <textarea name="name" rows="1" cols="1"></textarea>
+      </div>
+
+      <button type="button" name="button">Submit</button>
+
+    </form>
+  </div>
 
 </body>
 </html>
